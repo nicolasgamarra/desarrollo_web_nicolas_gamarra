@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Listado de Actividades</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        tr:hover {
+            background-color: #f0f0f0;
+            cursor: pointer;
+        }
+
+        .tabla-actividades,
+        .tabla-actividades th,
+        .tabla-actividades td {
+            border: 1px solid #ccc;
+            border-collapse: collapse;
+            padding: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <h1>Listado de Actividades</h1>
+
+        <p>Haz clic sobre una actividad para ver más detalles.</p>
+
+        <table class="tabla-actividades">
+            <thead>
+                <tr>
+                    <th>Inicio</th>
+                    <th>Término</th>
+                    <th>Comuna</th>
+                    <th>Sector</th>
+                    <th>Tema</th>
+                    <th>Nombre Organizador</th>
+                    <th>Total Fotos</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr onclick="location.href='detalle-actividad.html';">
+                    <td>2025-04-01 10:00</td>
+                    <td>2025-04-01 12:00</td>
+                    <td>Providencia</td>
+                    <td>Plaza Italia</td>
+                    <td>Música</td>
+                    <td>Nicolás Gamarra</td>
+                    <td>3</td>
+                </tr>
+                <tr onclick="location.href='detalle-actividad.html';">
+                    <td> 2025-04-02 15:00</td>
+                    <td>2025-04-02 18:00</td>
+                    <td> La Florida </td>
+                    <td>Av. La Florida 7200 </td>
+                    <td>Deporte</td>
+                    <td> Camila Diaz </td>
+                    <td>2</td>
+                </tr>
+                <tr onclick="location.href='detalle-actividad.html';">
+                    <td>2025-04-03 09:00</td>
+                    <td>2025-04-03 11:00 </td>
+                    <td>Viña del Mar</td>
+                    <td>Parque Quinta Vergara</td>
+                    <td>Baile </td>
+                    <td>Marcos galarza</td>
+                    <td>4</td>
+                </tr>
+                <tr onclick="location.href='detalle-actividad.html';">
+                    <td>2025-04-04 14:00</td>
+                    <td>2025-04-04 16:30</td>
+                    <td> Concepción</td>
+                    <td> Campus UdeC</td>
+                    <td> Ciencias </td>
+                    <td> Laura prieto</td>
+                    <td> 1 </td>
+                </tr>
+                <tr onclick="location.href='detalle-actividad.html';">
+                    <td>2025-04-05 17:00 </td>
+                    <td>2025-04-05 20:00</td>
+                    <td>Rancagua </td>
+                    <td> Teatro Regional </td>
+                    <td> Comida </td>
+                    <td> Diego Sandoval</td>
+                    <td> 2 </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <br>
+        <a href="portada.html">Volver a la portada</a>
+    </div>
+</body>
+</html>
